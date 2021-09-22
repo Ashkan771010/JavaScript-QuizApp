@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(2, 150, 2);
+}
+
+.divShow {
+    width: 640px;
+    height: 170px;
+    margin: 150px auto;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+}
+
+.goNext {
+    position: absolute;
+    top: 8px;
+    left: 230px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.ques {
+    padding: 8px;
+}
+
+.score {
+    /* padding-left: 8px; */
+    position: absolute;
+    left: 10px;
+    bottom: 15px;
+}
+
+.btn {
+    background-color: rgb(57, 57, 253);
+    width: 300px;
+    /* transform: translate(6%, -50%); */
+    height: 25px;
+    border-radius: 4px;
+    margin-top: 30px;
+    border: 1px solid rgb(45, 45, 209);
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.btn1{
+    margin-left: 14px;
+    margin-right: 5px;
+}
+
+.btn2 {
+    margin-right: 6px;
+}
+
+.nextBtn {
+    display: block;
+    margin: 30px auto;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(128, 128, 235);
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.nextBtn:active {
+    color: red;
+}
+
+.btn:active {
+    color: red;
+}
